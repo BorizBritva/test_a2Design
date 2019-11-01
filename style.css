@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    padding: 50px 80px;
+    position: relative;
+}
+
+header {
+    height: 800px;
+    background-image: url('./img/header-bg.png');
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+}
+
+.one {
+    top: 225px;
+}
+
+.menuOne, .menuTwo {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgMenu {
+    width: 150px;
+    height: 150px;
+    padding-top: 25px;
+}
+
+.menuOne span, .menuTwo span {
+    width: 133px;
+    height: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.mainHeader, .mainHeader_txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainHeader_txt {
+    height: 140px;
+    width: 100%;
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+
+.mainHeader_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 35px;
+}
+
+.mainHeader_button div {
+    height: 60px;
+    width: 200px;
+    margin: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.active {
+    background: #E8C300;
+}
+.left {
+    padding-right: 40px;
+}
+.right {
+    padding-left: 40px;
+}
+.four .row {
+    margin-top: 40px;
+}
+/*
+.wrapNav_item .row {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wrapNav_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapNav_icon {
+    padding-top: 25px;
+}
+
+.menuItem {
+    list-style-type: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100px;
+}*/
+
+.about_block {
+    width: 100%;
+}
+
+.aboutUs, .calback {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs_txt {
+    width: 600px;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.aboutUs_txt .header, .form_name {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 57px;
+    margin-bottom: 15px;
+}
+
+.aboutUs_txt .header::after, .form_name::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 60px;
+    background: #E8C300;
+    border-radius: 50px;
+    bottom: -5px;
+}
+
+.aboutUs_txt .desc, .aboutUs_txt .par {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.aboutUs_txt .desc {
+    font-weight: bold;
+}
+
+.aboutUs_img {
+    position: relative;
+    width: 475px;
+    height: 475px;
+    overflow: hidden;
+}
+
+.aboutUs_img img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.three {
+    background-image: url('./img/specialtys-bg.png');
+    height: 675px;
+}
+.about_block__three {
+    color: white;
+}
+.spec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spec span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5em;
+    color: #FFFFFF;
+}
+
+.form_desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.form_desc span {
+    width: 565px;
+    height: 76px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+/*---Styles for Form---*/
+
+.aboutUsForm {
+    width: 575px;
+    display: flex;
+    align-items: center;
+}
+
+.calback {
+    width: 1165px;
+}
+
+.aboutUsForm_input, .contactInput {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aboutStr {
+    height: 60px;
+    width: 277px;
+    padding: 5px;
+}
+
+.callbackStr {
+    height: 60px;
+    width: 380px;
+    padding: 4px;
+}
+
+.txt__calback {
+    width: 100%;
+    height: 120px;
+    padding-bottom: 90px;
+}
+
+.aboutStr input, .callbackStr input, .calback_txt {
+    width: 100%;
+    height: 100%;
+    background: #E5E5E5;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.aboutStr input::placeholder, .callbackStr input::placeholder, .calback_txt::placeholder {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(51, 51, 51, 0.5);
+    text-indent: 20px;
+}
+
+.form_submit {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_submit input {
+    background: #E8C300;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.aboutUsForm_submit {
+    width: 100%;
+    height: 60px;
+}
+.aboutUsForm .form_submit {
+    padding: 5px;
+}
+
+.contactInput .form_submit, .txt__calback {
+    padding: 4px;
+}
+
+.calback__submit {
+    width: 640px;
+    height: 60px;
+}
+
+input:active {
+  border-color: 1px solid #E8C300;
+}
+
+/*---Style for Form---*/
+
+footer {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.footTxt {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*.aboutUsForm_input div {
+    padding: 5px;
+    height: 60px;
+    width: 277.5px;
+}
+
+.aboutUsForm_input input, .contactInput input, .txt__calback textarea {
+    width: 100%;
+    height: 100%;
+    background: #E5E5E5;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.aboutUsForm_input input::placeholder, .contactInput input::placeholder, .txt__calback textarea::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(51, 51, 51, 0.5);
+    text-indent: 20px;
+}
+
+.aboutUsForm_submit {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background: #E8C300;
+    border-radius: 5px;
+    width: 563.58px;
+    height: 60px;
+    margin: 5px;
+}
+
+.three {
+    background-image: url('./img/specialtys-bg.png');
+}
+.about_block__three {
+    color: white;
+}
+.spec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.spec span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5em;
+    color: #FFFFFF;
+}
+
+.fio__calback, .email__calback, .phone__calback {
+    padding: 4px;
+    width: 380px;
+    height: 60px;
+}
+
+.txt__calback {
+    padding: 4px;
+    width: 100%;
+    height: 120px;
+}
+
+.form_submit {
+    padding-top: 40px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row_calback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calback__submit {
+    width: 640px !important;
+    height: 60px !important;
+    background: #E8C300 !important;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
