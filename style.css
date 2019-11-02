@@ -17,6 +17,11 @@ header {
     position: relative;
 }
 
+header .container {
+    display: flex;
+    justify-content: center;
+}
+
 .menu {
     display: flex;
     flex-direction: row;
@@ -25,6 +30,9 @@ header {
 }
 
 .one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     top: 225px;
 }
 
@@ -270,7 +278,7 @@ header {
 
 .aboutStr {
     height: 60px;
-    width: 277px;
+    width: 265px;
     padding: 5px;
 }
 
@@ -293,6 +301,11 @@ header {
     border-radius: 5px;
     box-sizing: border-box;
     border-radius: 5px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(51, 51, 51, 0.5);
+    text-indent: 20px;
 }
 
 .aboutStr input::placeholder, .callbackStr input::placeholder, .calback_txt::placeholder {
