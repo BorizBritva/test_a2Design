@@ -6,6 +6,13 @@
     border: 0;
 }
 
+html,body{
+height: 100%;
+width: 100%;
+overflow-x: hidden;
+margin: 0 auto;
+}
+
 .container {
     padding: 50px 80px;
     position: relative;
@@ -204,8 +211,9 @@ header .container {
 
 .aboutUs_img {
     position: relative;
-    width: 475px;
-    height: 475px;
+    /*width: 475px;
+    height: 475px;*/
+    width: 50%;
     overflow: hidden;
 }
 
@@ -266,7 +274,8 @@ header .container {
 }
 
 .calback {
-    width: 1165px;
+    /*width: 1165px;*/
+    width: 100%;
 }
 
 .aboutUsForm_input, .contactInput {
@@ -284,7 +293,7 @@ header .container {
 
 .callbackStr {
     height: 60px;
-    width: 380px;
+    width: 32%;
     padding: 4px;
 }
 
